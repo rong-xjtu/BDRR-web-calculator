@@ -1,0 +1,62 @@
+{
+    "train_stats": {
+        "mean": {
+            "Age": 53.244776119402985,
+            "Histologic grade": 1.0701492537313433,
+            "ER proportion": 82.90746268656716,
+            "PR proportion": 58.843283582089555,
+            "Ki-67 proportion": 25.239343360656715,
+            "p53": 0.09850746268656717,
+            "Preoperative Long /short diameter": 1.6154639534684905,
+            "PR status": 0.9208955223880597,
+            "HER-2 IHC": 1.019402985074627,
+            "Family history": 0.05223880597014925
+        },
+        "std": {
+            "Age": 10.133478141648187,
+            "Histologic grade": 0.45697220378195846,
+            "ER proportion": 13.73017051937563,
+            "PR proportion": 27.28004972993526,
+            "Ki-67 proportion": 14.521212395023866,
+            "p53": 0.2982222049106577,
+            "Preoperative Long /short diameter": 0.47310076626185393,
+            "PR status": 0.2701034034585472,
+            "HER-2 IHC": 0.7464392415971672,
+            "Family history": 0.22267446860871146
+        },
+        "min": {
+            "Age": 29.0,
+            "Histologic grade": 0.0,
+            "ER proportion": 2.0,
+            "PR proportion": 1.0,
+            "Ki-67 proportion": 1.0,
+            "p53": 0.0,
+            "Preoperative Long /short diameter": 1.0,
+            "PR status": 0.0,
+            "HER-2 IHC": 0.0,
+            "Family history": 0.0
+        },
+        "max": {
+            "Age": 77.0,
+            "Histologic grade": 2.0,
+            "ER proportion": 100.0,
+            "PR proportion": 100.0,
+            "Ki-67 proportion": 80.0,
+            "p53": 1.0,
+            "Preoperative Long /short diameter": 5.6,
+            "PR status": 1.0,
+            "HER-2 IHC": 3.0,
+            "Family history": 1.0
+        }
+    },
+    "target_distribution": {
+        "train": {
+            "0": 511,
+            "1": 159
+        },
+        "test": {
+            "0": 128,
+            "1": 40
+        }
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "model_name": "Gradient Boosting",
+    "model_type": "GradientBoostingClassifier",
+    "test_accuracy": 0.8154761904761905,
+    "test_auc": 0.8533203125,
+    "train_accuracy": 0.8626865671641791,
+    "train_auc": 0.8959679503747737,
+    "cv_mean": 0.7970149253731343,
+    "cv_std": 0.03637629136404161,
+    "selected_features": [
+        "Age",
+        "Histologic grade",
+        "ER proportion",
+        "PR proportion",
+        "Ki-67 proportion",
+        "p53",
+        "Preoperative Long /short diameter",
+        "PR status",
+        "HER-2 IHC",
+        "Family history"
+    ],
+    "feature_count": 10,
+    "timestamp": "20260121_161844",
+    "data_shape": {
+        "train": [
+            670,
+            10
+        ],
+        "test": [
+            168,
+            10
+        ]
+    }
+}

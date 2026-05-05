@@ -1,0 +1,15 @@
+feature,importance,selection_type
+Age,1.0,Required
+Histologic grade,1.0,Required
+ER proportion,1.0,Required
+PR proportion,1.0,Required
+Ki-67 proportion,1.0,Required
+Preoperative Long /short diameter,0.5896101725264317,Auto
+ER  intensity,0.10344412207447916,Auto
+HER-2 IHC,0.09929702367778956,Auto
+stage,0.05176623090243691,Auto
+Accompanied by CIS,0.04720289623167925,Auto
+p53,0.03890030414029655,Auto
+PR status,0.030360788460482405,Auto
+Family history,0.023206250226194082,Auto
+Lymph Node Status,0.016212211760210364,Auto
